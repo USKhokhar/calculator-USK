@@ -37,3 +37,6 @@
 }
 
 
+input::placeholder{
+    color: red;
+}
