@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cal-c{
+    border: 1px solid black;
+    width: 20em;
+    margin: 10% 0 0 35%;
+}
+
+.display-input{
+    padding: 1.2em;
+    background-color: aqua;
+}
+
+.display-result{
+    padding: 1.5em;
+    background-color: antiquewhite;
+}
+
+.numpad{
+    display: grid;
+    grid-template-columns: 5em 5em 5em 5em;
+    text-align: center;
+}
+
+.num-keys{
+    padding: 1.2em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.num-keys:hover{
+    cursor: pointer;
+    background-color: rgb(206, 248, 248);
+}
+
+
